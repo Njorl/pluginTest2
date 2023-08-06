@@ -33,6 +33,10 @@ function onStartInstance(solution, instance)
     print("Running instance " .. instance:getName())
 end
 
+function getVersion()
+	return "pluginTest2 v1.0"
+end
+
 ---@param solution Solution
 ---@param instance rt_instance
 function onStopInstance(solution, instance)
