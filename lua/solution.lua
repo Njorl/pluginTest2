@@ -34,7 +34,7 @@ function onStartInstance(solution, instance)
 end
 
 function getVersion()
-	return "pluginTest2 v2.0"
+	return "pluginTest2 v3.0"
 end
 
 ---@param solution Solution
