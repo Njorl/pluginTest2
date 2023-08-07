@@ -463,7 +463,7 @@ end
 --- Get the version of the solution
 ---@return string
 function getVersion()
-    local baseVersion = "1.0"
+    local baseVersion = "2.0"
 
     local revision = nil
     -- Open the file in read mode
