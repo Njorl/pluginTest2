@@ -33,10 +33,6 @@ function onStartInstance(solution, instance)
     print("Running instance " .. instance:getName())
 end
 
-function getVersion()
-	return "pluginTest2 v3.0"
-end
-
 ---@param solution Solution
 ---@param instance rt_instance
 function onStopInstance(solution, instance)
@@ -467,7 +463,7 @@ end
 --- Get the version of the solution
 ---@return string
 function getVersion()
-    local baseVersion = "1.3"
+    local baseVersion = "1.0"
 
     local revision = nil
     -- Open the file in read mode
